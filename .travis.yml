@@ -69,6 +69,7 @@ script:
 deploy:
   provider: releases
   file: "Harbor"
+  api_key: 
   skip_cleanup: true
   on:
     tags: 0.4.1
