@@ -1,6 +1,6 @@
 # Harbor
 
-[![Build Status](https://travis-ci.org/vmware/harbor.svg?branch=master)](https://travis-ci.org/colemanserious/harbor)
+[![Build Status](https://travis-ci.org/colemanserious/harbor.svg?branch=colemanserious-patch-1)](https://travis-ci.org/colemanserious/harbor)
 
 <img alt="Harbor" src="docs/img/harbor_logo.png">
 
