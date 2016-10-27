@@ -68,7 +68,7 @@ script:
 
 deploy:
   provider: releases
-  file: "Harbor"
+  file: "*"
   api_key: $API_KEY
   skip_cleanup: true
   on:
