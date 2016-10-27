@@ -73,5 +73,5 @@ deploy:
   api_key: $API_KEY
   skip_cleanup: true
   on:
-    repo: colemanserious/harbor
+    #repo: colemanserious/harbor
     tags: true
