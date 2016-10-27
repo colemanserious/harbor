@@ -68,8 +68,10 @@ script:
 
 deploy:
   provider: releases
-  file: "*"
+  file_glob: true
+  file: "build/distributions/harbor*.zip"
   api_key: $API_KEY
   skip_cleanup: true
   on:
-    tags: 0.4.1
+    colemanserious/harbor
+    tags: true
