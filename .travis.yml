@@ -75,5 +75,5 @@ deploy:
   on:
     #repo: colemanserious/harbor
     tags: true
- after_deploy:
+after_deploy:
   - ./make
